@@ -1,0 +1,68 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #00b7ff;
+    background: #002937;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.selection{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+
+
+.containerLogo_Apresentacao{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    
+    /* background-color: aqua; */
+
+}
+
+.logoIndex{
+    width: 30%;
+    height: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    /* background-color: brown; */
+    
+}
+.containerBorderApresentacao{
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+    border-radius: 3rem;
+    background-color: #8FF4FE;
+    /* background-color: aqua; */
+}
+.apresentacao{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-size: 2.9vh;
+    /* background-color: blueviolet; */
+}

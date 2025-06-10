@@ -1,0 +1,66 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.containerTexto{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 5%;
+   
+    
+    
+}
+.texto{
+    justify-items: center;
+    font-size: 3vh;
+}
+
+.containerBorderLoginAll{
+    width: 40%;
+    height: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    border-radius: 3vh;
+    border: solid;
+   
+}
+
+.containerEmail, .containerSenha{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-size: 4vh;
+}
+.input_email, .input_senha{
+    width: 100%;
+    height: 4.5vh;
+}
+.containerButton{
+    width: 100%;
+}
+.butao_logar{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 25%;
+    height: 20%;
+    margin-left: 35.5%;
+    margin-right: 35.5%;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #00b7ff;
+    font-size: 4vh;
+}
