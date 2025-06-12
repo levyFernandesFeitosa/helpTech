@@ -66,3 +66,40 @@ img{
     font-size: 2.9vh;
     /* background-color: blueviolet; */
 }
+
+@media (max-width: 768px) {
+    .containerLogo_Apresentacao {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logoIndex {
+        width: 90%;
+        height: 90%;
+        margin-bottom: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+        /* background-color: blueviolet; */
+    }
+
+    .containerBorderApresentacao {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .apresentacao {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 3vh;
+    }
+}
+
+/* Para telas bem pequenas (tipo celulares de 360px) */
+@media (max-width: 480px) {
+    .logoIndex {
+        width: 80%;
+    }
+}

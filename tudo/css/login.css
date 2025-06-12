@@ -7,7 +7,8 @@ html{
 body{
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: #8FF4FE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .containerTexto{
@@ -34,6 +35,7 @@ body{
     flex-direction: column;
     border-radius: 3vh;
     border: solid;
+    background-color: white;
    
 }
 
@@ -48,6 +50,7 @@ body{
 .input_email, .input_senha{
     width: 100%;
     height: 4.5vh;
+    background-color:  #d3fbff;
 }
 .containerButton{
     width: 100%;
@@ -61,6 +64,44 @@ body{
     margin-right: 35.5%;
     border-radius: 0.5rem;
     outline: none;
-    background-color: #00b7ff;
+    background-color:#002937;
+    color: white;
     font-size: 4vh;
+}
+
+@media (max-width: 768px) {
+  .containerBorderLoginAll {
+    width: 80%;
+    margin: 10% auto;
+    padding: 5%;
+    /* background-color: rgb(0, 0, 0); */
+  }
+
+  .containerEmail,
+  .containerSenha {
+    font-size: 3vh;
+    margin-top: 15%;
+  }
+
+  .butao_logar {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    font-size: 4vh;
+    /* background-color: blueviolet; */
+  }
+}
+
+@media (max-width: 480px) {
+  .texto {
+    font-size: 3vh;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:10%;
+    text-align: center;
+  }
 }
